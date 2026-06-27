@@ -7,9 +7,9 @@
 ## 💡 概要说明
 本项目旨在让你在 ComfyUI 中能够像在 WebUI 中一样便捷地编写提示词。
 
-本项目从 [weilin9999/WeiLin-ComfyUI-prompt-all-in-one](https://github.com/weilin9999/WeiLin-ComfyUI-prompt-all-in-one) 分支修改而来。由于原作者已停止维护，且原版插件在 **ComfyUI Vue3 新版前端架构** 下存在严重的兼容性 Bug，本项目专门针对此问题进行了深度修复，延续该插件在 ComfyUI 新版本中的生命力。
+本项目从 [weilin9999/WeiLin-ComfyUI-prompt-all-in-one](https://github.com/weilin9999/WeiLin-ComfyUI-prompt-all-in-one) 分支修改而来。由于原作者已停止维护，且原版插件在 **ComfyUI Vue3 新版前端架构** 下存在严重的兼容性 Bug，本项目专门针对此问题进行了修复，延续该插件在 ComfyUI 新版本中的生命力。
 
-如果这个修复版拯救了你的工作流，请点个 ⭐️ Star 支持一下！
+如果这个修复版对你有帮助，请点个 ⭐️ Star 支持一下！
 
 ## 🛠️ 核心修复 (Bug Fixes)
 原版插件在 Vue3 架构下存在**恶性 Bug**：修改提示词后运行任务，数据会瞬间被旧缓存覆盖，导致提示词修改全部丢失。
