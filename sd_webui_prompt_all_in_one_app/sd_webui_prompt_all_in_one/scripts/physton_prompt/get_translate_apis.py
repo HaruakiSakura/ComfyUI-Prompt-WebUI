@@ -6,7 +6,7 @@ import sys
 Path = os.path.dirname(__file__)
 sys.path.append(Path)
 
-from storage import Storage
+from physton_prompt.storage import Storage
 st = Storage()
 
 # from scripts.physton_prompt.storage import Storage

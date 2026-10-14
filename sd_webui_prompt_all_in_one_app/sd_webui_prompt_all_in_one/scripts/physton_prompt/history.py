@@ -5,7 +5,7 @@ import os
 Path = os.path.dirname(__file__)
 sys.path.append(Path)
 
-from storage import Storage
+from physton_prompt.storage import Storage
 import uuid
 import time
 
